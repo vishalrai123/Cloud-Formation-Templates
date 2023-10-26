@@ -1,0 +1,358 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Resources": {
+        "MyVPC": {
+            "Type": "AWS::EC2::VPC",
+            "Properties": {
+                "CidrBlock": "10.0.0.0/16"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "9c9a3c79-fa9f-4bd2-aacc-4fa9f6219c36"
+                }
+            }
+        },
+        "PublicSubnet": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "MyVPC"
+                },
+                "CidrBlock": "10.0.0.0/24",
+                "AvailabilityZone": "ap-southeast-2a"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "7c27560f-7d25-4f5b-9dfa-634ec4f1b1bf"
+                }
+            }
+        },
+        "PrivateSubnet": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "MyVPC"
+                },
+                "CidrBlock": "10.0.1.0/24",
+                "AvailabilityZone": "ap-southeast-2a"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "fab00e8f-e2c4-4cef-96d4-0370d05a964e"
+                }
+            }
+        },
+        "EFSFileSystem": {
+            "Type": "AWS::EFS::FileSystem",
+            "Properties": {
+                "FileSystemTags": [
+                    {
+                        "Key": "Name",
+                        "Value": "MyEFS"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "1f40d465-4c0e-496d-9ad1-81aa697d94d5"
+                }
+            }
+        },
+        "EC2InstancePublic": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "InstanceType": "t2.micro",
+                "SubnetId": {
+                    "Ref": "PublicSubnet"
+                },
+                "ImageId": "ami-06e2b86bab2edf4ee",
+                "SecurityGroupIds": [
+                    {
+                        "Ref": "SecGrp"
+                    }
+                ],
+                "UserData": {
+                    "Fn::Base64": {
+                        "Fn::Join": [
+                            "",
+                            [
+                                "#!/bin/bash -xe\n",
+                                "yum update -y\n",
+                                "yum install -y amazon-efs-utils\n",
+                                "mkdir -p /mnt/efs\n",
+                                "mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 ",
+                                {
+                                    "Fn::GetAtt": [
+                                        "EFSFileSystem",
+                                        "FileSystemId"
+                                    ]
+                                },
+                                ":/ /mnt/efs\n"
+                            ]
+                        ]
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "96920329-2f72-4814-95f8-0c4387ff94a0"
+                }
+            }
+        },
+        "EC2InstancePrivate1": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "InstanceType": "t2.micro",
+                "SubnetId": {
+                    "Ref": "PrivateSubnet"
+                },
+                "ImageId": "ami-06e2b86bab2edf4ee",
+                "SecurityGroupIds": [
+                    {
+                        "Ref": "SecGrp"
+                    }
+                ],
+                "UserData": {
+                    "Fn::Base64": {
+                        "Fn::Join": [
+                            "",
+                            [
+                                "#!/bin/bash -xe\n",
+                                "yum update -y\n",
+                                "yum install -y amazon-efs-utils\n",
+                                "mkdir -p /mnt/efs\n",
+                                "mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 ",
+                                {
+                                    "Fn::GetAtt": [
+                                        "EFSFileSystem",
+                                        "FileSystemId"
+                                    ]
+                                },
+                                ":/ /mnt/efs\n"
+                            ]
+                        ]
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "697a0d65-0a73-4cdf-80b5-d2b1d5ced70a"
+                }
+            }
+        },
+        "EC2InstancePrivate2": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "InstanceType": "t2.micro",
+                "SubnetId": {
+                    "Ref": "PrivateSubnet"
+                },
+                "ImageId": "ami-06e2b86bab2edf4ee",
+                "SecurityGroupIds": [
+                    {
+                        "Ref": "SecGrp"
+                    }
+                ],
+                "UserData": {
+                    "Fn::Base64": {
+                        "Fn::Join": [
+                            "",
+                            [
+                                "#!/bin/bash -xe\n",
+                                "yum update -y\n",
+                                "yum install -y amazon-efs-utils\n",
+                                "mkdir -p /mnt/efs\n",
+                                "mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 ",
+                                {
+                                    "Fn::GetAtt": [
+                                        "EFSFileSystem",
+                                        "FileSystemId"
+                                    ]
+                                },
+                                ":/ /mnt/efs\n"
+                            ]
+                        ]
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "83bffd6c-2872-49fe-950d-7b03150c9ce7"
+                }
+            }
+        },
+        "SecGrp": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "GroupDescription": "Security group for the private instances",
+                "VpcId": {
+                    "Ref": "MyVPC"
+                },
+                "SecurityGroupIngress": [
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": "22",
+                        "ToPort": "22",
+                        "CidrIp": "10.0.1.0/24"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "03d18105-77fb-43bc-9daa-5fc794fcb671"
+                }
+            }
+        }
+    },
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "1f40d465-4c0e-496d-9ad1-81aa697d94d5": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -250,
+                    "y": 330
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "9c9a3c79-fa9f-4bd2-aacc-4fa9f6219c36": {
+                "size": {
+                    "width": 150,
+                    "height": 150
+                },
+                "position": {
+                    "x": 470,
+                    "y": 330
+                },
+                "z": 1,
+                "embeds": [
+                    "03d18105-77fb-43bc-9daa-5fc794fcb671"
+                ]
+            },
+            "fab00e8f-e2c4-4cef-96d4-0370d05a964e": {
+                "size": {
+                    "width": 330,
+                    "height": 240
+                },
+                "position": {
+                    "x": 60,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": [
+                    "83bffd6c-2872-49fe-950d-7b03150c9ce7",
+                    "697a0d65-0a73-4cdf-80b5-d2b1d5ced70a"
+                ]
+            },
+            "83bffd6c-2872-49fe-950d-7b03150c9ce7": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 90,
+                    "y": 150
+                },
+                "z": 2,
+                "parent": "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                "embeds": [],
+                "isassociatedwith": [
+                    "03d18105-77fb-43bc-9daa-5fc794fcb671"
+                ],
+                "iscontainedinside": [
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e"
+                ]
+            },
+            "697a0d65-0a73-4cdf-80b5-d2b1d5ced70a": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 210,
+                    "y": 150
+                },
+                "z": 2,
+                "parent": "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                "embeds": [],
+                "isassociatedwith": [
+                    "03d18105-77fb-43bc-9daa-5fc794fcb671"
+                ],
+                "iscontainedinside": [
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e",
+                    "fab00e8f-e2c4-4cef-96d4-0370d05a964e"
+                ]
+            },
+            "7c27560f-7d25-4f5b-9dfa-634ec4f1b1bf": {
+                "size": {
+                    "width": 240,
+                    "height": 240
+                },
+                "position": {
+                    "x": 60,
+                    "y": 390
+                },
+                "z": 1,
+                "embeds": [
+                    "96920329-2f72-4814-95f8-0c4387ff94a0"
+                ]
+            },
+            "96920329-2f72-4814-95f8-0c4387ff94a0": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 90,
+                    "y": 450
+                },
+                "z": 2,
+                "parent": "7c27560f-7d25-4f5b-9dfa-634ec4f1b1bf",
+                "embeds": [],
+                "isassociatedwith": [
+                    "03d18105-77fb-43bc-9daa-5fc794fcb671"
+                ],
+                "iscontainedinside": [
+                    "7c27560f-7d25-4f5b-9dfa-634ec4f1b1bf",
+                    "7c27560f-7d25-4f5b-9dfa-634ec4f1b1bf",
+                    "7c27560f-7d25-4f5b-9dfa-634ec4f1b1bf",
+                    "7c27560f-7d25-4f5b-9dfa-634ec4f1b1bf",
+                    "7c27560f-7d25-4f5b-9dfa-634ec4f1b1bf",
+                    "7c27560f-7d25-4f5b-9dfa-634ec4f1b1bf"
+                ]
+            },
+            "03d18105-77fb-43bc-9daa-5fc794fcb671": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 500,
+                    "y": 370
+                },
+                "z": 2,
+                "parent": "9c9a3c79-fa9f-4bd2-aacc-4fa9f6219c36",
+                "embeds": [],
+                "iscontainedinside": [
+                    "9c9a3c79-fa9f-4bd2-aacc-4fa9f6219c36",
+                    "9c9a3c79-fa9f-4bd2-aacc-4fa9f6219c36",
+                    "9c9a3c79-fa9f-4bd2-aacc-4fa9f6219c36",
+                    "9c9a3c79-fa9f-4bd2-aacc-4fa9f6219c36",
+                    "9c9a3c79-fa9f-4bd2-aacc-4fa9f6219c36"
+                ]
+            }
+        }
+    }
+}

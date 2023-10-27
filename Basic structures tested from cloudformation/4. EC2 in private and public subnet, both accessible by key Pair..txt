@@ -17,6 +17,7 @@
                     "ea9ebb39-f710-49b3-ad59-aadd0d4904b6",
                     "b2c995c8-4107-4487-82f7-1725a5e3e022",
                     "ffff3796-2803-420a-8b8d-43d476385f1a",
+                    "2f7c5862-7ea5-4920-9b51-46fdb868bfbf",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "398d01d3-585d-4b60-8974-0184204a1f3e",
                     "4545d760-9387-4f85-9466-b5c37cf535e7",
@@ -121,6 +122,9 @@
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1"
                 ],
                 "dependson": [
@@ -140,6 +144,9 @@
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -383,6 +390,9 @@
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc"
                 ],
                 "dependson": [
@@ -418,6 +428,24 @@
                 "embeds": [],
                 "dependson": [
                     "9998b24b-25fd-4f47-b828-5da4cc1527da"
+                ]
+            },
+            "2f7c5862-7ea5-4920-9b51-46fdb868bfbf": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 660,
+                    "y": 850
+                },
+                "z": 2,
+                "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                "embeds": [],
+                "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9"
                 ]
             }
         }
@@ -830,7 +858,15 @@
                 },
                 "SubnetId": {
                     "Ref": "PrivateSubnet1"
-                }
+                },
+                "SecurityGroupIds": [
+                    {
+                        "Fn::GetAtt": [
+                            "IGVConsoleSecurity",
+                            "GroupId"
+                        ]
+                    }
+                ]
             },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
@@ -879,6 +915,36 @@
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
                     "id": "f6b37e26-c4bf-487d-9a63-4263f7b3ff7a"
+                }
+            }
+        },
+        "IGVConsoleSecurity": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VPC"
+                },
+                "GroupDescription": "Allow access from HTTP and SSH traffic",
+                "SecurityGroupIngress": [
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": 80,
+                        "ToPort": 80,
+                        "CidrIp": "0.0.0.0/0"
+                    },
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": 22,
+                        "ToPort": 22,
+                        "CidrIp": {
+                            "Ref": "SSHLocation"
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "2f7c5862-7ea5-4920-9b51-46fdb868bfbf"
                 }
             }
         }

@@ -1,0 +1,19 @@
+1. Create a Key Pair Instance from the AWS console.(A Key Pair is created in the UI and the private Key is downloaded)
+2. Provide the Key Pair required to login to the EC2 while setting up the EC2.
+3. Once the EC2 is setup and running from either conventional ways or Cloud formation template.
+
+
+For accessing the EC2 in public subnet:-
+1. Open Putty session and add the Hostname (format = username@ipaddress).
+2. This is SSH access so the port number provided is 22(This can be changed from the configurations provided in the security group).
+3. Now in the left pane go to SSH->AUTH->Credentials.
+4. Here add the private Key that was downloaded in your local system.
+5. After this click open and it opens the terminal with access to the public EC2.
+
+
+For Accessing the EC2 in the private subnet from the EC2 in the public subnet.
+1. First open the putty and enter details in the same way as above.
+2. Go to SSH->AUTH and tick the checkbox for agent forwarding.
+3. Now login to the same public ec2.
+4. For default username of the private EC2, use the following command to connect to the private EC2 from the public EC2.
+format = ssh username@ipaddress

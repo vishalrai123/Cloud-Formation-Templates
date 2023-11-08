@@ -17,7 +17,7 @@
                     "d999427d-ad6b-4095-9e94-39cd4d6ad4ef",
                     "aebc710f-a7f0-4a4e-ae7a-8ee3d6e3f756",
                     "4545d760-9387-4f85-9466-b5c37cf535e7",
-                    "ed16d011-81c5-4ac0-ac32-581d71c725b2",
+                    "402d37c6-01fd-4aad-9b7a-74ed427b8056",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1"
                 ]
             },
@@ -52,6 +52,15 @@
                 "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                 "embeds": [],
                 "iscontainedinside": [
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
@@ -390,6 +399,15 @@
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9"
                 ]
             },
@@ -439,10 +457,10 @@
             },
             "a9ff3e1c-a47d-4c9e-9001-a1e198b2e96d": {
                 "source": {
-                    "id": "c3300934-8fef-437c-bab3-c1e7a89121c9"
+                    "id": "43a9ae92-7b13-4170-9d23-a7531316a69f"
                 },
                 "target": {
-                    "id": "43a9ae92-7b13-4170-9d23-a7531316a69f"
+                    "id": "c3300934-8fef-437c-bab3-c1e7a89121c9"
                 },
                 "z": 1
             },
@@ -560,7 +578,7 @@
                 "parent": "ae9e7408-9202-4c1b-bdd2-b1fdd0543aa7",
                 "embeds": []
             },
-            "ed16d011-81c5-4ac0-ac32-581d71c725b2": {
+            "402d37c6-01fd-4aad-9b7a-74ed427b8056": {
                 "size": {
                     "width": 60,
                     "height": 60
@@ -573,6 +591,11 @@
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9"
                 ]
@@ -671,6 +694,12 @@
                         "IpProtocol": "tcp",
                         "FromPort": 80,
                         "ToPort": 80,
+                        "CidrIp": "0.0.0.0/0"
+                    },
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": 443,
+                        "ToPort": 443,
                         "CidrIp": "0.0.0.0/0"
                     },
                     {
@@ -895,9 +924,12 @@
                 "DBSubnetGroupName": {
                     "Ref": "DBSubnetGroup"
                 },
-                "DBSecurityGroups": [
+                "VPCSecurityGroups": [
                     {
-                        "Ref": "OracleDbSecurityGroup"
+                        "Fn::GetAtt": [
+                            "OracleDBSecurityGroup",
+                            "GroupId"
+                        ]
                     }
                 ],
                 "Tags": [
@@ -913,25 +945,30 @@
                 }
             }
         },
-        "OracleDbSecurityGroup": {
-            "Type": "AWS::RDS::DBSecurityGroup",
+        "OracleDBSecurityGroup": {
+            "Type": "AWS::EC2::SecurityGroup",
             "Properties": {
-                "EC2VpcId": {
+                "VpcId": {
                     "Ref": "VPC"
                 },
-                "DBSecurityGroupIngress": {
-                    "EC2SecurityGroupId": {
-                        "Fn::GetAtt": [
-                            "WebServerSecurityGroup",
-                            "GroupId"
-                        ]
+                "GroupDescription": "Allow access from HTTP and SSH traffic",
+                "SecurityGroupIngress": [
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": 1521,
+                        "ToPort": 1521,
+                        "SourceSecurityGroupId": {
+                            "Fn::GetAtt": [
+                                "WebServerSecurityGroup",
+                                "GroupId"
+                            ]
+                        }
                     }
-                },
-                "GroupDescription": "Oracle RDS security access"
+                ]
             },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
-                    "id": "ed16d011-81c5-4ac0-ac32-581d71c725b2"
+                    "id": "402d37c6-01fd-4aad-9b7a-74ed427b8056"
                 }
             }
         }

@@ -5,12 +5,12 @@
         "AWS::CloudFormation::Designer": {
             "c3300934-8fef-437c-bab3-c1e7a89121c9": {
                 "size": {
-                    "width": 1080,
-                    "height": 900
+                    "width": 1200,
+                    "height": 1160
                 },
                 "position": {
                     "x": 150,
-                    "y": 270
+                    "y": 280
                 },
                 "z": 1,
                 "embeds": [
@@ -27,25 +27,21 @@
             },
             "afc2b65d-dfc8-4816-89d7-4b29c92a72e1": {
                 "size": {
-                    "width": 1000,
+                    "width": 1100,
                     "height": 250
                 },
                 "position": {
-                    "x": 190,
-                    "y": 350
+                    "x": 200,
+                    "y": 330
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [
-                    "2a9fe64f-bdf4-4354-b17c-0600146edb0b",
-                    "6f9a979b-fdc7-49ef-93d2-ee63404ab323",
+                    "398d01d3-585d-4b60-8974-0184204a1f3e",
                     "545d7162-4962-4813-a99e-a71e47bf714d",
-                    "1ad0ccf8-7767-4c84-9328-4508dbbfce4e",
                     "7a12f369-fc2c-4188-9dd4-0f6bad730aa9",
-                    "26552a7d-20d8-4c76-b5dd-0c986e9e9f38",
                     "b4ee671f-285a-4e2d-a696-6b60b8c247cb",
-                    "649351a9-2bdd-400e-9779-e29a2d83af47",
-                    "398d01d3-585d-4b60-8974-0184204a1f3e"
+                    "649351a9-2bdd-400e-9779-e29a2d83af47"
                 ]
             },
             "649351a9-2bdd-400e-9779-e29a2d83af47": {
@@ -54,13 +50,26 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 410,
-                    "y": 390
+                    "x": 680,
+                    "y": 380
                 },
                 "z": 3,
                 "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                 "embeds": [],
                 "iscontainedinside": [
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
@@ -232,13 +241,26 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 590,
-                    "y": 740
+                    "x": 800,
+                    "y": 630
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -412,12 +434,12 @@
             },
             "398d01d3-585d-4b60-8974-0184204a1f3e": {
                 "size": {
-                    "width": 240,
-                    "height": 140
+                    "width": 280,
+                    "height": 180
                 },
                 "position": {
-                    "x": 820,
-                    "y": 420
+                    "x": 990,
+                    "y": 370
                 },
                 "z": 3,
                 "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
@@ -431,8 +453,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 920,
-                    "y": 460
+                    "x": 1160,
+                    "y": 440
                 },
                 "z": 4,
                 "parent": "398d01d3-585d-4b60-8974-0184204a1f3e",
@@ -453,12 +475,12 @@
             },
             "bb3d5e2b-6802-424e-bc03-d7519450d2cc": {
                 "size": {
-                    "width": 340,
-                    "height": 220
+                    "width": 420,
+                    "height": 280
                 },
                 "position": {
                     "x": 190,
-                    "y": 670
+                    "y": 710
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -473,7 +495,7 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 270,
+                    "x": 520,
                     "y": 380
                 },
                 "z": 3,
@@ -489,8 +511,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 270,
-                    "y": 490
+                    "x": 410,
+                    "y": 460
                 },
                 "z": 3,
                 "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
@@ -502,8 +524,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 430,
-                    "y": 720
+                    "x": 460,
+                    "y": 840
                 },
                 "z": 3,
                 "parent": "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
@@ -629,6 +651,19 @@
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc"
                 ],
                 "dependson": [
@@ -637,12 +672,12 @@
             },
             "59cb9e10-d396-421d-a560-4dc889b2a6aa": {
                 "size": {
-                    "width": 180,
-                    "height": 160
+                    "width": 200,
+                    "height": 200
                 },
                 "position": {
                     "x": 220,
-                    "y": 710
+                    "y": 750
                 },
                 "z": 3,
                 "parent": "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
@@ -657,7 +692,7 @@
                 },
                 "position": {
                     "x": 270,
-                    "y": 770
+                    "y": 830
                 },
                 "z": 4,
                 "parent": "59cb9e10-d396-421d-a560-4dc889b2a6aa",
@@ -668,12 +703,12 @@
             },
             "a8318877-9bb5-4475-9cb9-ea37476b5f03": {
                 "size": {
-                    "width": 350,
-                    "height": 220
+                    "width": 420,
+                    "height": 290
                 },
                 "position": {
-                    "x": 820,
-                    "y": 670
+                    "x": 890,
+                    "y": 740
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -682,43 +717,14 @@
                     "ec27ab94-3241-493a-b70b-9f9cbf459364"
                 ]
             },
-            "26552a7d-20d8-4c76-b5dd-0c986e9e9f38": {
-                "size": {
-                    "width": 60,
-                    "height": 60
-                },
-                "position": {
-                    "x": 1080,
-                    "y": 500
-                },
-                "z": 3,
-                "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
-                "embeds": []
-            },
-            "6f9a979b-fdc7-49ef-93d2-ee63404ab323": {
-                "size": {
-                    "width": 60,
-                    "height": 60
-                },
-                "position": {
-                    "x": 1080,
-                    "y": 380
-                },
-                "z": 3,
-                "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
-                "embeds": [],
-                "dependson": [
-                    "a9ff3e1c-a47d-4c9e-9001-a1e198b2e96d"
-                ]
-            },
             "6e96c75b-1eed-4383-b66c-96b9339cb2ee": {
                 "size": {
-                    "width": 150,
-                    "height": 150
+                    "width": 230,
+                    "height": 220
                 },
                 "position": {
-                    "x": 1000,
-                    "y": 720
+                    "x": 1050,
+                    "y": 780
                 },
                 "z": 3,
                 "parent": "a8318877-9bb5-4475-9cb9-ea37476b5f03",
@@ -732,8 +738,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 1060,
-                    "y": 770
+                    "x": 1130,
+                    "y": 870
                 },
                 "z": 4,
                 "parent": "6e96c75b-1eed-4383-b66c-96b9339cb2ee",
@@ -745,8 +751,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 880,
-                    "y": 770
+                    "x": 940,
+                    "y": 870
                 },
                 "z": 3,
                 "parent": "a8318877-9bb5-4475-9cb9-ea37476b5f03",
@@ -756,6 +762,19 @@
                     "4545d760-9387-4f85-9466-b5c37cf535e7"
                 ],
                 "iscontainedinside": [
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03",
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03",
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03",
@@ -846,8 +865,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 580,
-                    "y": 870
+                    "x": 680,
+                    "y": 900
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -859,8 +878,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 540,
-                    "y": 480
+                    "x": 880,
+                    "y": 460
                 },
                 "z": 3,
                 "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
@@ -872,8 +891,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 590,
-                    "y": 640
+                    "x": 930,
+                    "y": 630
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -909,46 +928,30 @@
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9"
-                ]
-            },
-            "1ad0ccf8-7767-4c84-9328-4508dbbfce4e": {
-                "size": {
-                    "width": 60,
-                    "height": 60
-                },
-                "position": {
-                    "x": 680,
-                    "y": 490
-                },
-                "z": 3,
-                "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
-                "embeds": []
-            },
-            "2a9fe64f-bdf4-4354-b17c-0600146edb0b": {
-                "size": {
-                    "width": 60,
-                    "height": 60
-                },
-                "position": {
-                    "x": 590,
-                    "y": 380
-                },
-                "z": 3,
-                "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
-                "embeds": [],
-                "dependson": [
-                    "a9ff3e1c-a47d-4c9e-9001-a1e198b2e96d"
                 ]
             },
             "aebc710f-a7f0-4a4e-ae7a-8ee3d6e3f756": {
                 "size": {
-                    "width": 360,
-                    "height": 220
+                    "width": 500,
+                    "height": 280
                 },
                 "position": {
-                    "x": 670,
-                    "y": 920
+                    "x": 200,
+                    "y": 1130
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -959,12 +962,12 @@
             },
             "566b7b94-fee7-4237-90c3-a9bb7c48aae5": {
                 "size": {
-                    "width": 140,
-                    "height": 150
+                    "width": 190,
+                    "height": 190
                 },
                 "position": {
-                    "x": 700,
-                    "y": 960
+                    "x": 230,
+                    "y": 1170
                 },
                 "z": 3,
                 "parent": "aebc710f-a7f0-4a4e-ae7a-8ee3d6e3f756",
@@ -978,8 +981,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 740,
-                    "y": 1010
+                    "x": 300,
+                    "y": 1250
                 },
                 "z": 4,
                 "parent": "566b7b94-fee7-4237-90c3-a9bb7c48aae5",
@@ -987,12 +990,12 @@
             },
             "ae9e7408-9202-4c1b-bdd2-b1fdd0543aa7": {
                 "size": {
-                    "width": 120,
-                    "height": 150
+                    "width": 200,
+                    "height": 220
                 },
                 "position": {
-                    "x": 880,
-                    "y": 960
+                    "x": 470,
+                    "y": 1160
                 },
                 "z": 3,
                 "parent": "aebc710f-a7f0-4a4e-ae7a-8ee3d6e3f756",
@@ -1002,16 +1005,18 @@
             },
             "d999427d-ad6b-4095-9e94-39cd4d6ad4ef": {
                 "size": {
-                    "width": 150,
-                    "height": 210
+                    "width": 420,
+                    "height": 280
                 },
                 "position": {
-                    "x": 1060,
-                    "y": 930
+                    "x": 880,
+                    "y": 1130
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
-                "embeds": []
+                "embeds": [
+                    "35f516ee-383c-49ce-98d7-1f23c14aee43"
+                ]
             },
             "2dc3a8c3-b376-4917-8486-0de7716da85f": {
                 "size": {
@@ -1019,8 +1024,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 910,
-                    "y": 1010
+                    "x": 540,
+                    "y": 1240
                 },
                 "z": 4,
                 "parent": "ae9e7408-9202-4c1b-bdd2-b1fdd0543aa7",
@@ -1032,8 +1037,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 690,
-                    "y": 740
+                    "x": 540,
+                    "y": 1020
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -1044,8 +1049,49 @@
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9"
                 ]
+            },
+            "35f516ee-383c-49ce-98d7-1f23c14aee43": {
+                "size": {
+                    "width": 220,
+                    "height": 190
+                },
+                "position": {
+                    "x": 950,
+                    "y": 1180
+                },
+                "z": 3,
+                "parent": "d999427d-ad6b-4095-9e94-39cd4d6ad4ef",
+                "embeds": [
+                    "b69190c6-5408-4d3f-a171-83d96ac5da0a"
+                ]
+            },
+            "b69190c6-5408-4d3f-a171-83d96ac5da0a": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1020,
+                    "y": 1250
+                },
+                "z": 4,
+                "parent": "35f516ee-383c-49ce-98d7-1f23c14aee43",
+                "embeds": []
             }
         }
     },
@@ -1082,7 +1128,7 @@
             "Type": "AWS::EC2::Instance",
             "Properties": {
                 "InstanceType": {
-                    "Ref": "InstanceType"
+                    "Ref": "WebAndQueueInstanceType"
                 },
                 "ImageId": {
                     "Fn::FindInMap": [
@@ -1094,7 +1140,7 @@
                             "Fn::FindInMap": [
                                 "AWSInstanceType2Arch",
                                 {
-                                    "Ref": "InstanceType"
+                                    "Ref": "WebAndQueueInstanceType"
                                 },
                                 "Arch"
                             ]
@@ -1102,7 +1148,7 @@
                     ]
                 },
                 "KeyName": {
-                    "Ref": "KeyName"
+                    "Ref": "WebAndQueueKeyName"
                 },
                 "NetworkInterfaces": [
                     {
@@ -1158,6 +1204,12 @@
                 },
                 "GroupDescription": "Allow access from HTTP and SSH traffic",
                 "SecurityGroupIngress": [
+                    {
+                        "FromPort": 2049,
+                        "IpProtocol": "tcp",
+                        "ToPort": 2049,
+                        "CidrIp": "0.0.0.0/0"
+                    },
                     {
                         "IpProtocol": "tcp",
                         "FromPort": 80,
@@ -1270,7 +1322,7 @@
                 }
             }
         },
-        "NATEIP1": {
+        "NATEIP": {
             "Type": "AWS::EC2::EIP",
             "DependsOn": [
                 "AttachGatewayLink"
@@ -1284,12 +1336,12 @@
                 }
             }
         },
-        "NatGateway1": {
+        "NatGateway": {
             "Type": "AWS::EC2::NatGateway",
             "Properties": {
                 "AllocationId": {
                     "Fn::GetAtt": [
-                        "NATEIP1",
+                        "NATEIP",
                         "AllocationId"
                     ]
                 },
@@ -1307,7 +1359,7 @@
             "Type": "AWS::EC2::Instance",
             "Properties": {
                 "InstanceType": {
-                    "Ref": "InstanceType"
+                    "Ref": "IGVConsoleInstanceType"
                 },
                 "ImageId": {
                     "Fn::FindInMap": [
@@ -1319,7 +1371,7 @@
                             "Fn::FindInMap": [
                                 "AWSInstanceType2Arch",
                                 {
-                                    "Ref": "InstanceType"
+                                    "Ref": "IGVConsoleInstanceType"
                                 },
                                 "Arch"
                             ]
@@ -1327,7 +1379,7 @@
                     ]
                 },
                 "KeyName": {
-                    "Ref": "KeyName"
+                    "Ref": "IGVConsoleKeyName"
                 },
                 "SubnetId": {
                     "Ref": "PrivateSubnet1"
@@ -1403,7 +1455,7 @@
                 },
                 "DestinationCidrBlock": "0.0.0.0/0",
                 "NatGatewayId": {
-                    "Ref": "NatGateway1"
+                    "Ref": "NatGateway"
                 }
             },
             "Metadata": {
@@ -1424,39 +1476,6 @@
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
                     "id": "a8318877-9bb5-4475-9cb9-ea37476b5f03"
-                }
-            }
-        },
-        "NatGateway2": {
-            "Type": "AWS::EC2::NatGateway",
-            "Properties": {
-                "AllocationId": {
-                    "Fn::GetAtt": [
-                        "NATEIP2",
-                        "AllocationId"
-                    ]
-                },
-                "SubnetId": {
-                    "Ref": "PublicSubnet"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "26552a7d-20d8-4c76-b5dd-0c986e9e9f38"
-                }
-            }
-        },
-        "NATEIP2": {
-            "Type": "AWS::EC2::EIP",
-            "DependsOn": [
-                "AttachGatewayLink"
-            ],
-            "Properties": {
-                "Domain": "vpc"
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "6f9a979b-fdc7-49ef-93d2-ee63404ab323"
                 }
             }
         },
@@ -1492,7 +1511,7 @@
                 },
                 "DestinationCidrBlock": "0.0.0.0/0",
                 "NatGatewayId": {
-                    "Ref": "NatGateway2"
+                    "Ref": "NatGateway"
                 }
             },
             "Metadata": {
@@ -1505,7 +1524,7 @@
             "Type": "AWS::EC2::Instance",
             "Properties": {
                 "InstanceType": {
-                    "Ref": "InstanceType"
+                    "Ref": "EIGConsoleInstanceType"
                 },
                 "ImageId": {
                     "Fn::FindInMap": [
@@ -1517,7 +1536,7 @@
                             "Fn::FindInMap": [
                                 "AWSInstanceType2Arch",
                                 {
-                                    "Ref": "InstanceType"
+                                    "Ref": "EIGConsoleInstanceType"
                                 },
                                 "Arch"
                             ]
@@ -1525,7 +1544,7 @@
                     ]
                 },
                 "KeyName": {
-                    "Ref": "KeyName"
+                    "Ref": "EIGConsoleKeyName"
                 },
                 "SubnetId": {
                     "Ref": "PrivateSubnet2"
@@ -1617,9 +1636,9 @@
                 "GroupDescription": "Enable NFS access from EC2",
                 "SecurityGroupIngress": [
                     {
-                        "FromPort": "2049",
+                        "FromPort": 2049,
                         "IpProtocol": "tcp",
-                        "ToPort": "2049",
+                        "ToPort": 2049,
                         "SourceSecurityGroupId": {
                             "Fn::GetAtt": [
                                 "WebServerSecurityGroup",
@@ -1635,39 +1654,6 @@
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
                     "id": "61206285-2360-482d-b4bf-00655c16494c"
-                }
-            }
-        },
-        "NatGateway3": {
-            "Type": "AWS::EC2::NatGateway",
-            "Properties": {
-                "AllocationId": {
-                    "Fn::GetAtt": [
-                        "NATEIP3",
-                        "AllocationId"
-                    ]
-                },
-                "SubnetId": {
-                    "Ref": "PublicSubnet"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "1ad0ccf8-7767-4c84-9328-4508dbbfce4e"
-                }
-            }
-        },
-        "NATEIP3": {
-            "Type": "AWS::EC2::EIP",
-            "DependsOn": [
-                "AttachGatewayLink"
-            ],
-            "Properties": {
-                "Domain": "vpc"
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "2a9fe64f-bdf4-4354-b17c-0600146edb0b"
                 }
             }
         },
@@ -1718,7 +1704,7 @@
                 },
                 "DestinationCidrBlock": "0.0.0.0/0",
                 "NatGatewayId": {
-                    "Ref": "NatGateway3"
+                    "Ref": "NatGateway"
                 }
             },
             "Metadata": {
@@ -1764,14 +1750,20 @@
         "OracleDb": {
             "Type": "AWS::RDS::DBInstance",
             "Properties": {
-                "AllocatedStorage": 20,
+                "AllocatedStorage": {
+                    "Ref": "DBAllocatedStorage"
+                },
                 "DBInstanceClass": "db.t3.small",
                 "StorageType": "gp2",
-                "Engine": "oracle-ee",
-                "MasterUsername": "adminusername",
-                "MasterUserPassword": "adminpassword",
+                "Engine": "oracle-se2",
+                "MasterUsername": {
+                    "Ref": "DBMasterUsername"
+                },
+                "MasterUserPassword": {
+                    "Ref": "DBMasterUserPassword"
+                },
                 "MultiAZ": false,
-                "PubliclyAccessible": false,
+                "PubliclyAccessible": true,
                 "DBSubnetGroupName": {
                     "Ref": "DBSubnetGroup"
                 },
@@ -1822,23 +1814,267 @@
                     "id": "e6cf2aa2-9f21-4d1a-b9a9-a4c4480794b5"
                 }
             }
+        },
+        "PrivateRouteTable4": {
+            "Type": "AWS::EC2::RouteTable",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VPC"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "35f516ee-383c-49ce-98d7-1f23c14aee43"
+                }
+            }
+        },
+        "PrivateSubnet4PrivateRouteTable4Association": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "PrivateRouteTable4"
+                },
+                "SubnetId": {
+                    "Ref": "PrivateSubnet4"
+                }
+            }
+        },
+        "PrivateRoute4": {
+            "Type": "AWS::EC2::Route",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "PrivateRouteTable4"
+                },
+                "DestinationCidrBlock": "0.0.0.0/0",
+                "NatGatewayId": {
+                    "Ref": "NatGateway"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "b69190c6-5408-4d3f-a171-83d96ac5da0a"
+                }
+            }
         }
     },
     "Parameters": {
-        "InstanceType": {
-            "Description": "WebServer EC2 instance type",
+        "WebAndQueueInstanceType": {
+            "Description": "WebAndQueue EC2 instance type",
             "Type": "String",
             "Default": "t2.micro",
             "AllowedValues": [
+                "t1.micro",
+                "t2.nano",
                 "t2.micro",
-                "t2.small"
+                "t2.small",
+                "t2.medium",
+                "t2.large",
+                "m1.small",
+                "m1.medium",
+                "m1.large",
+                "m1.xlarge",
+                "m2.xlarge",
+                "m2.2xlarge",
+                "m2.4xlarge",
+                "m3.medium",
+                "m3.large",
+                "m3.xlarge",
+                "m3.2xlarge",
+                "m4.large",
+                "m4.xlarge",
+                "m4.2xlarge",
+                "m4.4xlarge",
+                "m4.10xlarge",
+                "c1.medium",
+                "c1.xlarge",
+                "c3.large",
+                "c3.xlarge",
+                "c3.2xlarge",
+                "c3.4xlarge",
+                "c3.8xlarge",
+                "c4.large",
+                "c4.xlarge",
+                "c4.2xlarge",
+                "c4.4xlarge",
+                "c4.8xlarge",
+                "g2.2xlarge",
+                "g2.8xlarge",
+                "r3.large",
+                "r3.xlarge",
+                "r3.2xlarge",
+                "r3.4xlarge",
+                "r3.8xlarge",
+                "i2.xlarge",
+                "i2.2xlarge",
+                "i2.4xlarge",
+                "i2.8xlarge",
+                "d2.xlarge",
+                "d2.2xlarge",
+                "d2.4xlarge",
+                "d2.8xlarge",
+                "hi1.4xlarge",
+                "hs1.8xlarge",
+                "cr1.8xlarge",
+                "cc2.8xlarge",
+                "cg1.4xlarge"
             ],
             "ConstraintDescription": "must be a valid EC2 instance type."
         },
-        "KeyName": {
-            "Description": "Name of an EC2 KeyPair to enable SSH access to the instance.",
+        "IGVConsoleInstanceType": {
+            "Description": "IGVConsole EC2 instance type",
+            "Type": "String",
+            "Default": "t2.micro",
+            "AllowedValues": [
+                "t1.micro",
+                "t2.nano",
+                "t2.micro",
+                "t2.small",
+                "t2.medium",
+                "t2.large",
+                "m1.small",
+                "m1.medium",
+                "m1.large",
+                "m1.xlarge",
+                "m2.xlarge",
+                "m2.2xlarge",
+                "m2.4xlarge",
+                "m3.medium",
+                "m3.large",
+                "m3.xlarge",
+                "m3.2xlarge",
+                "m4.large",
+                "m4.xlarge",
+                "m4.2xlarge",
+                "m4.4xlarge",
+                "m4.10xlarge",
+                "c1.medium",
+                "c1.xlarge",
+                "c3.large",
+                "c3.xlarge",
+                "c3.2xlarge",
+                "c3.4xlarge",
+                "c3.8xlarge",
+                "c4.large",
+                "c4.xlarge",
+                "c4.2xlarge",
+                "c4.4xlarge",
+                "c4.8xlarge",
+                "g2.2xlarge",
+                "g2.8xlarge",
+                "r3.large",
+                "r3.xlarge",
+                "r3.2xlarge",
+                "r3.4xlarge",
+                "r3.8xlarge",
+                "i2.xlarge",
+                "i2.2xlarge",
+                "i2.4xlarge",
+                "i2.8xlarge",
+                "d2.xlarge",
+                "d2.2xlarge",
+                "d2.4xlarge",
+                "d2.8xlarge",
+                "hi1.4xlarge",
+                "hs1.8xlarge",
+                "cr1.8xlarge",
+                "cc2.8xlarge",
+                "cg1.4xlarge"
+            ],
+            "ConstraintDescription": "must be a valid EC2 instance type."
+        },
+        "EIGConsoleInstanceType": {
+            "Description": "EIGConsole EC2 instance type",
+            "Type": "String",
+            "Default": "t2.micro",
+            "AllowedValues": [
+                "t1.micro",
+                "t2.nano",
+                "t2.micro",
+                "t2.small",
+                "t2.medium",
+                "t2.large",
+                "m1.small",
+                "m1.medium",
+                "m1.large",
+                "m1.xlarge",
+                "m2.xlarge",
+                "m2.2xlarge",
+                "m2.4xlarge",
+                "m3.medium",
+                "m3.large",
+                "m3.xlarge",
+                "m3.2xlarge",
+                "m4.large",
+                "m4.xlarge",
+                "m4.2xlarge",
+                "m4.4xlarge",
+                "m4.10xlarge",
+                "c1.medium",
+                "c1.xlarge",
+                "c3.large",
+                "c3.xlarge",
+                "c3.2xlarge",
+                "c3.4xlarge",
+                "c3.8xlarge",
+                "c4.large",
+                "c4.xlarge",
+                "c4.2xlarge",
+                "c4.4xlarge",
+                "c4.8xlarge",
+                "g2.2xlarge",
+                "g2.8xlarge",
+                "r3.large",
+                "r3.xlarge",
+                "r3.2xlarge",
+                "r3.4xlarge",
+                "r3.8xlarge",
+                "i2.xlarge",
+                "i2.2xlarge",
+                "i2.4xlarge",
+                "i2.8xlarge",
+                "d2.xlarge",
+                "d2.2xlarge",
+                "d2.4xlarge",
+                "d2.8xlarge",
+                "hi1.4xlarge",
+                "hs1.8xlarge",
+                "cr1.8xlarge",
+                "cc2.8xlarge",
+                "cg1.4xlarge"
+            ],
+            "ConstraintDescription": "must be a valid EC2 instance type."
+        },
+        "WebAndQueueKeyName": {
+            "Description": "Name of an EC2 KeyPair to enable SSH access to the Web and Queue instance.",
             "Type": "AWS::EC2::KeyPair::KeyName",
             "ConstraintDescription": "must be the name of an existing EC2 KeyPair."
+        },
+        "IGVConsoleKeyName": {
+            "Description": "Name of an EC2 KeyPair to enable SSH access to the IGV console instance.",
+            "Type": "AWS::EC2::KeyPair::KeyName",
+            "ConstraintDescription": "must be the name of an existing EC2 KeyPair."
+        },
+        "EIGConsoleKeyName": {
+            "Description": "Name of an EC2 KeyPair to enable SSH access to the EIG console instance.",
+            "Type": "AWS::EC2::KeyPair::KeyName",
+            "ConstraintDescription": "must be the name of an existing EC2 KeyPair."
+        },
+        "DBAllocatedStorage": {
+            "Description": " The allocated DB space required",
+            "Type": "Number",
+            "ConstraintDescription": "Db space of 1 to 999 GBs can be allocated"
+        },
+        "DBMasterUsername": {
+            "Description": " The master username of the DB getting created",
+            "Type": "String",
+            "Default": "adminusername",
+            "ConstraintDescription": "must be a valid DB username"
+        },
+        "DBMasterUserPassword": {
+            "Description": " The master user password of the DB getting created",
+            "Type": "String",
+            "Default": "adminuserpassword",
+            "ConstraintDescription": "must be a valid DB password"
         },
         "SSHLocation": {
             "Description": " The IP address range that can be used to access the web server using SSH.",

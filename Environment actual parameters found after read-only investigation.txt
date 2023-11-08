@@ -1,0 +1,45 @@
+1. VPC - Contains the numerous resources required for deployment.
+    1. Public EC2 (WEB) Security Groups - 5 different security groups
+        1) TCP port access port - 80
+        2) NFS access for EFS port - 2049
+        3) HTTPS access port - 443
+        4) HTTPS tomcat port access - 8443
+        5) Oracle port - 1521
+        6) SSH access port - 22
+        
+    2. IGV Console EC2 Security Group - 1 SG with custom
+    3. EIG Console EC2 Security Group - 1 SG with custom
+    4. EFS mount target SG - open port 2049 with NFS access protocol
+    5. DB Security Group - 1521 port RDS-access
+    6. EFS - EFS present inside the VPC only
+    7. IGW - Internet Gateway, is attached with the VPC using an Attach Gateway configuration.
+
+2. Public Subnet - Contains the Web and Queue EC2 instance and many other resources.
+    1. Web And Queue Instance - An EC2 instance with the IGV-EIG-WEB deployment.
+    2. NAT Gateway - used to connect to the three private subnets in the VPC.(IGV, EIG console and RDS instance)
+    3. NAT EIP - an elastic IP assigned to the NAT and in turn to all the private subnet resources for network access.
+    4. Public Route Table - A public route table with necessary routes and route rules.
+    5. Public Route - An internet route connected from the Internet Gateway to the Route Table.
+    6. Subnet and Route Table Associator - An associator between the Public Route Table and Public Subnet.
+    7. EFS Public Mount Target - A mount target point for the EFS present in the VPC.
+
+3. Private Subnet 1 - contains the IGV Console deployment.
+    1. IGV Console EC2 instance - contains IGV console deployment.
+    2. Private Route Table - A Private route table with necessary routes and route rules.
+    3. Private Route - An internet route connected from the Internet Gateway to the Route Table.
+    4. Subnet and Route Table Associator - An associator between the Private Route Table and Public Subnet.
+
+4. Private Subnet 2 - contains the EIG Console deployment.
+    1. EIG Console EC2 instance - contains EIG console deployment.
+    2. Private Route Table - A Private route table with necessary routes and route rules.
+    3. Private Route - An internet route connected from the Internet Gateway to the Route Table.
+    4. Subnet and Route Table Associator - An associator between the Private Route Table and Public Subnet.
+
+5. Private Subnet 3 - contains the RDS deployment
+    1. RDS instance - An oracle se 2 instance deployed with many configurations.
+    2. DB Subnet Group - The RDS is located inside this DB subnet group that is also present inside this private subnet.
+    3. Private Route Table - A Private route table with necessary routes and route rules.
+    4. Private Route - An internet route connected from the Internet Gateway to the Route Table.
+    5. Subnet and Route Table Associator - An associator between the Private Route Table and Public Subnet.
+
+6. Private Subnet 4 - is a private Subnet in a different availability zone used by the DB subnet group to point to 2 subnets in different AZs.

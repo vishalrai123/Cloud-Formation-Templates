@@ -1,0 +1,24 @@
+Parameters provided by user before running the script:-
+
+1. Availability zone in which the application is to be deployed. (DOUBT: Another availability zone is required for DB Subnet group).
+
+2. Every EC2 machine - 
+	Dynamic entries need to provide.
+	1. Instance Type 		- DONE
+	2. Key Name			- DONE
+	3. SSH location/SSH Ips 	- (check if required)
+	4. UserData script file		- 
+
+	Dynamic entries already provided - DONE
+	1. Image Id - already configured by selecting the required id from the region in which the EC2 is being setup.
+
+3. DB Instance - (for Oracle only T3 classess are available)
+	1. Instance Type		- 
+	2. Allocated Storage		- DONE
+	3. Db Master Username		- DONE
+	4. Db Master Userpassword	- DONE
+	5. Publicly Accessible & Multi AZ - (check if required) - by default both are false.
+
+4. Names of the resources - easy to find the resources when checking in the AWS console.(provided by Tags property in the form of Key value Pairs).
+
+5. 

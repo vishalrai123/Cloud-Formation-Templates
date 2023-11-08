@@ -1,0 +1,46 @@
+Changes not needed to add in the existing template:-
+
+1. adding the VPC gateway connection to private DB EC2.
+	1. Add a VPN gateway
+	2. add a VPN gateway connection route AWS::EC2::VPNGatewayRoutePropagation (specify the route tables to connect in this)
+	3. The propagation is selected as NO in the route tables and these configurations are a part of 
+	VPN gateway service so not needed to include
+
+
+
+Changes completed :-
+
+1. Only one NAT Gateway is required with 1 NAT Eip. Both subnets will use the same NAT gateway with different internet routes and route tables.
+
+3. Add a route table and a route to the 4th subnet in different availability zone in the same manner as the other subnets.
+
+
+
+Changes needed to be added in the existing template:-
+
+Security Groups - Rules not creating intentionally for the following port access
+1. 8161		- activemq client
+2. 8443		- https tomcat access
+3. 15090	- web private ip access
+4. 10050	- 
+
+
+2. Changing the DB properties:-
+	1. publicly accessible - true
+	2. engine - oracle-se2
+	Check for replication properties, replication is present in the actual RDS.
+
+
+4. Security Groups linked with Public EC2 (The Web and Queue instance)
+
+					Port		protocol	type		IP protocol
+	1. EFS access - 		2049		TCP		NFS					
+	2. Activemq client - 		8161		TCP		Custom TCP
+	3. Tomcat used HTTPS port - 	8443		TCP		Custom TCP
+	4. eig sg - 			4445		TCP		Custom TCP
+					0-65535		
+	5. 
+
+
+
+

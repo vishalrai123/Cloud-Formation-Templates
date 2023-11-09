@@ -15,13 +15,13 @@
                 "z": 1,
                 "embeds": [
                     "e1e2e7bc-7440-4e87-a79f-394392f70df6",
+                    "e6cf2aa2-9f21-4d1a-b9a9-a4c4480794b5",
                     "d999427d-ad6b-4095-9e94-39cd4d6ad4ef",
                     "aebc710f-a7f0-4a4e-ae7a-8ee3d6e3f756",
+                    "61206285-2360-482d-b4bf-00655c16494c",
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "4545d760-9387-4f85-9466-b5c37cf535e7",
-                    "e6cf2aa2-9f21-4d1a-b9a9-a4c4480794b5",
-                    "61206285-2360-482d-b4bf-00655c16494c",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1"
                 ]
             },
@@ -50,13 +50,17 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 680,
-                    "y": 380
+                    "x": 650,
+                    "y": 370
                 },
                 "z": 3,
                 "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                 "embeds": [],
                 "iscontainedinside": [
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
@@ -241,13 +245,17 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 800,
+                    "x": 780,
                     "y": 630
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -495,7 +503,7 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 520,
+                    "x": 510,
                     "y": 380
                 },
                 "z": 3,
@@ -511,7 +519,7 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 410,
+                    "x": 420,
                     "y": 460
                 },
                 "z": 3,
@@ -524,17 +532,22 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 460,
-                    "y": 840
+                    "x": 480,
+                    "y": 830
                 },
                 "z": 3,
                 "parent": "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                 "embeds": [],
                 "isassociatedwith": [
                     "2f7c5862-7ea5-4920-9b51-46fdb868bfbf",
-                    "4545d760-9387-4f85-9466-b5c37cf535e7"
+                    "4545d760-9387-4f85-9466-b5c37cf535e7",
+                    "61206285-2360-482d-b4bf-00655c16494c"
                 ],
                 "iscontainedinside": [
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
@@ -759,9 +772,14 @@
                 "embeds": [],
                 "isassociatedwith": [
                     "6e2a6125-fc2b-4933-86d0-5766cdd13f1f",
-                    "4545d760-9387-4f85-9466-b5c37cf535e7"
+                    "4545d760-9387-4f85-9466-b5c37cf535e7",
+                    "61206285-2360-482d-b4bf-00655c16494c"
                 ],
                 "iscontainedinside": [
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03",
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03",
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03",
@@ -865,8 +883,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 680,
-                    "y": 900
+                    "x": 650,
+                    "y": 870
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -879,7 +897,7 @@
                 },
                 "position": {
                     "x": 880,
-                    "y": 460
+                    "y": 430
                 },
                 "z": 3,
                 "parent": "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
@@ -891,13 +909,17 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 930,
+                    "x": 880,
                     "y": 630
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -1038,12 +1060,16 @@
                 },
                 "position": {
                     "x": 540,
-                    "y": 1020
+                    "y": 1040
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -1086,8 +1112,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 1020,
-                    "y": 1250
+                    "x": 1030,
+                    "y": 1260
                 },
                 "z": 4,
                 "parent": "35f516ee-383c-49ce-98d7-1f23c14aee43",
@@ -1155,6 +1181,9 @@
                         "GroupSet": [
                             {
                                 "Ref": "WebServerSecurityGroup"
+                            },
+                            {
+                                "Ref": "EFSMountTargetSecurityGroup"
                             }
                         ],
                         "AssociatePublicIpAddress": "true",
@@ -1204,12 +1233,6 @@
                 },
                 "GroupDescription": "Allow access from HTTP and SSH traffic",
                 "SecurityGroupIngress": [
-                    {
-                        "FromPort": 2049,
-                        "IpProtocol": "tcp",
-                        "ToPort": 2049,
-                        "CidrIp": "0.0.0.0/0"
-                    },
                     {
                         "IpProtocol": "tcp",
                         "FromPort": 80,
@@ -1386,10 +1409,10 @@
                 },
                 "SecurityGroupIds": [
                     {
-                        "Fn::GetAtt": [
-                            "WebServerSecurityGroup",
-                            "GroupId"
-                        ]
+                        "Ref": "WebServerSecurityGroup"
+                    },
+                    {
+                        "Ref": "EFSMountTargetSecurityGroup"
                     }
                 ],
                 "UserData": {
@@ -1551,10 +1574,10 @@
                 },
                 "SecurityGroupIds": [
                     {
-                        "Fn::GetAtt": [
-                            "WebServerSecurityGroup",
-                            "GroupId"
-                        ]
+                        "Ref": "WebServerSecurityGroup"
+                    },
+                    {
+                        "Ref": "EFSMountTargetSecurityGroup"
                     }
                 ],
                 "UserData": {
@@ -1639,12 +1662,7 @@
                         "FromPort": 2049,
                         "IpProtocol": "tcp",
                         "ToPort": 2049,
-                        "SourceSecurityGroupId": {
-                            "Fn::GetAtt": [
-                                "WebServerSecurityGroup",
-                                "GroupId"
-                            ]
-                        }
+                        "CidrIp": "0.0.0.0/0"
                     }
                 ],
                 "VpcId": {
@@ -1756,6 +1774,7 @@
                 "DBInstanceClass": "db.t3.small",
                 "StorageType": "gp2",
                 "Engine": "oracle-se2",
+                "LicenseModel": "bring-your-own-license",
                 "MasterUsername": {
                     "Ref": "DBMasterUsername"
                 },
@@ -1800,12 +1819,7 @@
                         "IpProtocol": "tcp",
                         "FromPort": 1521,
                         "ToPort": 1521,
-                        "SourceSecurityGroupId": {
-                            "Fn::GetAtt": [
-                                "WebServerSecurityGroup",
-                                "GroupId"
-                            ]
-                        }
+                        "CidrIp": "0.0.0.0/0"
                     }
                 ]
             },

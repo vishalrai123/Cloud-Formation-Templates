@@ -12,7 +12,15 @@ Changes completed :-
 
 1. Only one NAT Gateway is required with 1 NAT Eip. Both subnets will use the same NAT gateway with different internet routes and route tables.
 
-3. Add a route table and a route to the 4th subnet in different availability zone in the same manner as the other subnets.
+2. Add a route table and a route to the 4th subnet in different availability zone in the same manner as the other subnets.
+
+3. Changing the DB properties:-
+	1. publicly accessible - true
+	2. engine - oracle-se2
+	3. added license model - bring-your-own-license
+
+
+
 
 
 
@@ -24,14 +32,7 @@ Security Groups - Rules not creating intentionally for the following port access
 3. 15090	- web private ip access
 4. 10050	- 
 
-
-2. Changing the DB properties:-
-	1. publicly accessible - true
-	2. engine - oracle-se2
-	Check for replication properties, replication is present in the actual RDS.
-
-
-4. Security Groups linked with Public EC2 (The Web and Queue instance)
+5. Security Groups linked with Public EC2 (The Web and Queue instance)
 
 					Port		protocol	type		IP protocol
 	1. EFS access - 		2049		TCP		NFS					

@@ -270,6 +270,25 @@
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
+                    "afc2b65d-dfc8-4816-89d7-4b29c92a72e1",
                     "afc2b65d-dfc8-4816-89d7-4b29c92a72e1"
                 ],
                 "dependson": [
@@ -393,6 +412,25 @@
                     "701383b1-ef64-4053-b9d7-47511114d3d9"
                 ],
                 "iscontainedinside": [
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
+                    "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
                     "bb3d5e2b-6802-424e-bc03-d7519450d2cc",
@@ -785,6 +823,25 @@
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03",
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03",
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
+                    "a8318877-9bb5-4475-9cb9-ea37476b5f03",
                     "a8318877-9bb5-4475-9cb9-ea37476b5f03"
                 ],
                 "dependson": [
@@ -910,13 +967,32 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 760,
-                    "y": 1240
+                    "x": 750,
+                    "y": 1230
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -1009,12 +1085,31 @@
                 },
                 "position": {
                     "x": 880,
-                    "y": 670
+                    "y": 700
                 },
                 "z": 2,
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -1091,6 +1186,25 @@
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9"
                 ]
             },
@@ -1107,6 +1221,25 @@
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -1175,6 +1308,25 @@
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9"
                 ]
             },
@@ -1191,6 +1343,25 @@
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -1246,6 +1417,25 @@
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9"
                 ]
             },
@@ -1262,6 +1452,25 @@
                 "parent": "c3300934-8fef-437c-bab3-c1e7a89121c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
+                    "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
                     "c3300934-8fef-437c-bab3-c1e7a89121c9",
@@ -1363,25 +1572,31 @@
                     }
                 ],
                 "UserData": {
-                    "Fn::Base64": {
-                        "Fn::Join": [
-                            "",
-                            [
-                                "#!/bin/bash -x\n",
-                                "sudo yum update -y\n",
-                                "sudo yum install -y amazon-efs-utils\n",
-                                "\n",
-                                "sudo mkdir efsShared",
-                                "\n",
-                                "FileSystemId=",
-                                {
-                                    "Ref": "EFSFileSystem"
-                                },
-                                "\n",
-                                "sudo mount -t efs -o tls ${FileSystemId}:/ efsShared"
-                            ]
-                        ]
-                    }
+                    "Fn::If": [
+                        "EFSInstantiateCondition",
+                        {
+                            "Fn::Base64": {
+                                "Fn::Join": [
+                                    "",
+                                    [
+                                        "#!/bin/bash -x\n",
+                                        "sudo yum update -y\n",
+                                        "sudo yum install -y amazon-efs-utils\n",
+                                        "\n",
+                                        "sudo mkdir efsShared",
+                                        "\n",
+                                        "FileSystemId=",
+                                        {
+                                            "Ref": "EFSFileSystem"
+                                        },
+                                        "\n",
+                                        "sudo mount -t efs -o tls ${FileSystemId}:/ efsShared"
+                                    ]
+                                ]
+                            }
+                        },
+                        ""
+                    ]
                 }
             },
             "Metadata": {
@@ -1545,25 +1760,31 @@
                     }
                 ],
                 "UserData": {
-                    "Fn::Base64": {
-                        "Fn::Join": [
-                            "",
-                            [
-                                "#!/bin/bash -x\n",
-                                "sudo yum update -y\n",
-                                "sudo yum install -y amazon-efs-utils\n",
-                                "\n",
-                                "sudo mkdir efsShared",
-                                "\n",
-                                "FileSystemId=",
-                                {
-                                    "Ref": "EFSFileSystem"
-                                },
-                                "\n",
-                                "sudo mount -t efs -o tls ${FileSystemId}:/ efsShared"
-                            ]
-                        ]
-                    }
+                    "Fn::If": [
+                        "EFSInstantiateCondition",
+                        {
+                            "Fn::Base64": {
+                                "Fn::Join": [
+                                    "",
+                                    [
+                                        "#!/bin/bash -x\n",
+                                        "sudo yum update -y\n",
+                                        "sudo yum install -y amazon-efs-utils\n",
+                                        "\n",
+                                        "sudo mkdir efsShared",
+                                        "\n",
+                                        "FileSystemId=",
+                                        {
+                                            "Ref": "EFSFileSystem"
+                                        },
+                                        "\n",
+                                        "sudo mount -t efs -o tls ${FileSystemId}:/ efsShared"
+                                    ]
+                                ]
+                            }
+                        },
+                        ""
+                    ]
                 }
             },
             "Metadata": {
@@ -1707,25 +1928,31 @@
                     }
                 ],
                 "UserData": {
-                    "Fn::Base64": {
-                        "Fn::Join": [
-                            "",
-                            [
-                                "#!/bin/bash -x\n",
-                                "sudo yum update -y\n",
-                                "sudo yum install -y amazon-efs-utils\n",
-                                "\n",
-                                "sudo mkdir efsShared",
-                                "\n",
-                                "FileSystemId=",
-                                {
-                                    "Ref": "EFSFileSystem"
-                                },
-                                "\n",
-                                "sudo mount -t efs -o tls ${FileSystemId}:/ efsShared"
-                            ]
-                        ]
-                    }
+                    "Fn::If": [
+                        "EFSInstantiateCondition",
+                        {
+                            "Fn::Base64": {
+                                "Fn::Join": [
+                                    "",
+                                    [
+                                        "#!/bin/bash -x\n",
+                                        "sudo yum update -y\n",
+                                        "sudo yum install -y amazon-efs-utils\n",
+                                        "\n",
+                                        "sudo mkdir efsShared",
+                                        "\n",
+                                        "FileSystemId=",
+                                        {
+                                            "Ref": "EFSFileSystem"
+                                        },
+                                        "\n",
+                                        "sudo mount -t efs -o tls ${FileSystemId}:/ efsShared"
+                                    ]
+                                ]
+                            }
+                        },
+                        ""
+                    ]
                 }
             },
             "Metadata": {
@@ -1745,7 +1972,7 @@
                 "FileSystemTags": [
                     {
                         "Key": "Name",
-                        "Value": "SharedFileSystem"
+                        "Value": "BT-DEV-EFS01"
                     }
                 ]
             },
@@ -1753,10 +1980,12 @@
                 "AWS::CloudFormation::Designer": {
                     "id": "e1e2e7bc-7440-4e87-a79f-394392f70df6"
                 }
-            }
+            },
+            "Condition": "EFSInstantiateCondition"
         },
         "EFSMountTarget": {
             "Type": "AWS::EFS::MountTarget",
+            "Condition": "EFSInstantiateCondition",
             "Properties": {
                 "FileSystemId": {
                     "Ref": "EFSFileSystem"
@@ -1781,6 +2010,7 @@
         },
         "PrivateSubnet3": {
             "Type": "AWS::EC2::Subnet",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "VpcId": {
                     "Ref": "VPC"
@@ -1796,6 +2026,7 @@
         },
         "PrivateRouteTable3": {
             "Type": "AWS::EC2::RouteTable",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "VpcId": {
                     "Ref": "VPC"
@@ -1809,6 +2040,7 @@
         },
         "PrivateSubnet3PrivateRouteTable3Association": {
             "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "RouteTableId": {
                     "Ref": "PrivateRouteTable3"
@@ -1820,6 +2052,7 @@
         },
         "PrivateRoute3": {
             "Type": "AWS::EC2::Route",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "RouteTableId": {
                     "Ref": "PrivateRouteTable3"
@@ -1837,6 +2070,7 @@
         },
         "DBSubnetGroup": {
             "Type": "AWS::RDS::DBSubnetGroup",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "DBSubnetGroupDescription": "Subnet group for Oracle DB",
                 "SubnetIds": [
@@ -1856,6 +2090,7 @@
         },
         "PrivateSubnet4": {
             "Type": "AWS::EC2::Subnet",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "VpcId": {
                     "Ref": "VPC"
@@ -1871,6 +2106,7 @@
         },
         "OracleDb": {
             "Type": "AWS::RDS::DBInstance",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "AllocatedStorage": {
                     "Ref": "DBAllocatedStorage"
@@ -1901,7 +2137,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "OracleDb"
+                        "Value": "avqbtdev"
                     }
                 ]
             },
@@ -1913,6 +2149,7 @@
         },
         "DBSecurityGroup": {
             "Type": "AWS::EC2::SecurityGroup",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "VpcId": {
                     "Ref": "VPC"
@@ -1968,6 +2205,7 @@
         },
         "PrivateRouteTable4": {
             "Type": "AWS::EC2::RouteTable",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "VpcId": {
                     "Ref": "VPC"
@@ -1981,6 +2219,7 @@
         },
         "PrivateSubnet4PrivateRouteTable4Association": {
             "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "RouteTableId": {
                     "Ref": "PrivateRouteTable4"
@@ -1992,6 +2231,7 @@
         },
         "PrivateRoute4": {
             "Type": "AWS::EC2::Route",
+            "Condition": "DatabaseInstantiateCondition",
             "Properties": {
                 "RouteTableId": {
                     "Ref": "PrivateRouteTable4"
@@ -2234,6 +2474,26 @@
         }
     },
     "Parameters": {
+        "DatabaseCreationParameter": {
+            "Description": "Depending on the user's response, the database will be instantiated.",
+            "Default": "Yes",
+            "Type": "String",
+            "AllowedValues": [
+                "Yes",
+                "No"
+            ],
+            "ConstraintDescription": "Is database creation required?"
+        },
+        "FileSystemAndMountCreationParameter": {
+            "Description": "Depending on the user's response, the EFS and mount target in the public subnet will be instantiated.",
+            "Default": "Yes",
+            "Type": "String",
+            "AllowedValues": [
+                "Yes",
+                "No"
+            ],
+            "ConstraintDescription": "Is EFS and mount target creation required?"
+        },
         "WebAndQueueInstanceType": {
             "Description": "WebAndQueue EC2 instance type",
             "Type": "String",
@@ -2470,10 +2730,169 @@
     },
     "Mappings": {
         "AWSInstanceType2Arch": {
+            "t1.micro": {
+                "Arch": "HVM64"
+            },
+            "t2.nano": {
+                "Arch": "HVM64"
+            },
             "t2.micro": {
                 "Arch": "HVM64"
             },
             "t2.small": {
+                "Arch": "HVM64"
+            },
+            "t2.medium": {
+                "Arch": "HVM64"
+            },
+            "t2.large": {
+                "Arch": "HVM64"
+            },
+            "m1.small": {
+                "Arch": "HVM64"
+            },
+            "m1.medium": {
+                "Arch": "HVM64"
+            },
+            "m1.large": {
+                "Arch": "HVM64"
+            },
+            "m1.xlarge": {
+                "Arch": "HVM64"
+            },
+            "m2.xlarge": {
+                "Arch": "HVM64"
+            },
+            "m2.2xlarge": {
+                "Arch": "HVM64"
+            },
+            "m2.4xlarge": {
+                "Arch": "HVM64"
+            },
+            "m3.medium": {
+                "Arch": "HVM64"
+            },
+            "m3.large": {
+                "Arch": "HVM64"
+            },
+            "m3.xlarge": {
+                "Arch": "HVM64"
+            },
+            "m3.2xlarge": {
+                "Arch": "HVM64"
+            },
+            "m4.large": {
+                "Arch": "HVM64"
+            },
+            "m4.xlarge": {
+                "Arch": "HVM64"
+            },
+            "m4.2xlarge": {
+                "Arch": "HVM64"
+            },
+            "m4.4xlarge": {
+                "Arch": "HVM64"
+            },
+            "m4.10xlarge": {
+                "Arch": "HVM64"
+            },
+            "m5.xlarge": {
+                "Arch": "HVM64"
+            },
+            "c1.medium": {
+                "Arch": "HVM64"
+            },
+            "c1.xlarge": {
+                "Arch": "HVM64"
+            },
+            "c3.large": {
+                "Arch": "HVM64"
+            },
+            "c3.xlarge": {
+                "Arch": "HVM64"
+            },
+            "c3.2xlarge": {
+                "Arch": "HVM64"
+            },
+            "c3.4xlarge": {
+                "Arch": "HVM64"
+            },
+            "c3.8xlarge": {
+                "Arch": "HVM64"
+            },
+            "c4.large": {
+                "Arch": "HVM64"
+            },
+            "c4.xlarge": {
+                "Arch": "HVM64"
+            },
+            "c4.2xlarge": {
+                "Arch": "HVM64"
+            },
+            "c4.4xlarge": {
+                "Arch": "HVM64"
+            },
+            "c4.8xlarge": {
+                "Arch": "HVM64"
+            },
+            "g2.2xlarge": {
+                "Arch": "HVMG2"
+            },
+            "g2.8xlarge": {
+                "Arch": "HVMG2"
+            },
+            "r3.large": {
+                "Arch": "HVM64"
+            },
+            "r3.xlarge": {
+                "Arch": "HVM64"
+            },
+            "r3.2xlarge": {
+                "Arch": "HVM64"
+            },
+            "r3.4xlarge": {
+                "Arch": "HVM64"
+            },
+            "r3.8xlarge": {
+                "Arch": "HVM64"
+            },
+            "r5.large": {
+                "Arch": "HVM64"
+            },
+            "i2.xlarge": {
+                "Arch": "HVM64"
+            },
+            "i2.2xlarge": {
+                "Arch": "HVM64"
+            },
+            "i2.4xlarge": {
+                "Arch": "HVM64"
+            },
+            "i2.8xlarge": {
+                "Arch": "HVM64"
+            },
+            "d2.xlarge": {
+                "Arch": "HVM64"
+            },
+            "d2.2xlarge": {
+                "Arch": "HVM64"
+            },
+            "d2.4xlarge": {
+                "Arch": "HVM64"
+            },
+            "d2.8xlarge": {
+                "Arch": "HVM64"
+            },
+            "hi1.4xlarge": {
+                "Arch": "HVM64"
+            },
+            "hs1.8xlarge": {
+                "Arch": "HVM64"
+            },
+            "cr1.8xlarge": {
+                "Arch": "HVM64"
+            },
+            "cc2.8xlarge": {
                 "Arch": "HVM64"
             }
         },
@@ -2550,6 +2969,24 @@
                 "HVM64": "ami-6b6a7d09",
                 "HVMG2": "NOT_SUPPORTED"
             }
+        }
+    },
+    "Conditions": {
+        "DatabaseInstantiateCondition": {
+            "Fn::Equals": [
+                {
+                    "Ref": "DatabaseCreationParameter"
+                },
+                "Yes"
+            ]
+        },
+        "EFSInstantiateCondition": {
+            "Fn::Equals": [
+                {
+                    "Ref": "FileSystemAndMountCreationParameter"
+                },
+                "Yes"
+            ]
         }
     }
 }

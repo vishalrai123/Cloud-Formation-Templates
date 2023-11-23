@@ -22,3 +22,60 @@ Parameters provided by user before running the script:-
 4. Names of the resources - easy to find the resources when checking in the AWS console.(provided by Tags property in the form of Key value Pairs).
 
 5. 
+
+
+
+
+
+
+
+Parameters required to be input by user for the NON-PROD environment in alignment with the existing BT-DEV environment:-
+
+1. Public EC2 configurations(By default at least one public instance with user specified details will be present)
+	1. Public Instance Name - String input
+	2. Public Instance Type - (t2.micro/t3.small etc)
+	3. Key Name used to access the public instance - String input
+	4. Range of Ips to allow SSH access to the all EC2 Instances - String input(in the following format x.x.x.x/y, x between 0-255 and y 0-32)
+	5. Location to mount EFS on - String input(in the format mnt/Shared/)
+
+2. [Question 1] Number of private EC2 instances required ? ( Available choices - 0/1/2 )
+
+3. Depending on the user's answer the following choices are provided:- (Skip this step if user chooses 0 as answer for Question 1)
+	
+	Private1 EC2 :- (If user chooses 1 as answer for Question 1)
+		1. Instance Name - String input
+		2. Instance Type - (t2.micro/t3.small etc)
+		3. KeyName used to access the EC2 - String input
+		4. Location to mount EFS on - String input(in the format mnt/Shared/)
+
+	Private2 EC2 :- (If user chooses 2 as answer for Question 1)
+		1. Instance Name - String input
+		2. Instance Type - (t2.micro/t3.small etc)
+		3. KeyName used to access the EC2 - String input
+		4. Location to mount EFS on - String input(in the format mnt/Shared/)
+
+
+4. [Question 2] Is EFS required? (Available choices - Yes/No)
+
+5. If User chooses Yes as answer for Question 2:- (Skip this step if user chooses No as answer for Question 2)
+	EFS user-specified configurations:-
+	1. Name of EFS - String input
+	2. Performance - GeneralPurpose/Bursting
+	3. Encryption - True/False
+
+6. [Question 3] Is Database Instance Required:- (Available choices - Yes/No)
+
+7. If User chooses Yes as answer for Question 3:- (Skip this step if user chooses No as answer for Question 3)
+	DB user-specified configurations:-
+	1. Db instance name - String input
+	2. Db instance type - (t3.small or others, here all classess are only for Oracle type Db)
+	3. Db Allocated Storage - Integer input
+	4. Admin Username - String input
+	5. Admin Password - String input
+
+
+
+
+
+
+
